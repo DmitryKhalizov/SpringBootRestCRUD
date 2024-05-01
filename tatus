@@ -1,0 +1,23 @@
+[33mcommit 548ead6a80af431b130286b3120aba222dfe1ca3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: DmitryKhalizov <khalizov@hotmail.com>
+Date:   Sun Apr 28 16:03:11 2024 +0200
+
+    Commit #2. Initial commit of the project
+
+ .gitignore                                         |  33 [32m+++[m
+ .mvn/wrapper/maven-wrapper.jar                     | Bin [31m0[m -> [32m62547[m bytes
+ .mvn/wrapper/maven-wrapper.properties              |   2 [32m+[m
+ README.md.txt                                      |   0
+ mvnw                                               | 308 [32m+++++++++++++++++++++[m
+ mvnw.cmd                                           | 205 [32m++++++++++++++[m
+ pom.xml                                            |  60 [32m++++[m
+ .../SpringbootRestCrudApplication.java             |  13 [32m+[m
+ .../springbootrestcrud/dao/EmployeeDAO.java        |  19 [32m++[m
+ .../springbootrestcrud/dao/EmployeeDAOJpaImpl.java |  51 [32m++++[m
+ .../springbootrestcrud/entity/Employee.java        |  73 [32m+++++[m
+ .../rest/EmployeeRestController.java               |  59 [32m++++[m
+ .../service/EmployeeService.java                   |  17 [32m++[m
+ .../service/EmployeeServiceImpl.java               |  42 [32m+++[m
+ src/main/resources/application.properties          |   5 [32m+[m
+ .../SpringbootRestCrudApplicationTests.java        |  13 [32m+[m
+ 16 files changed, 900 insertions(+)
